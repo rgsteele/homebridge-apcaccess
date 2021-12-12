@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-apcaccess",
+  "name": "@rgsteele/homebridge-apcaccess",
   "version": "0.1.0",
   "description": "Ridiculously simple apcaccess wrapper",
   "main": "index.js",
@@ -18,19 +18,19 @@
   "engines": {
     "homebridge": ">=0.2.5"
   },
-  "author": "Paul Curry",
+  "author": "Ryan Steele",
   "license": "MIT",
   "dependencies": {
     "apcaccess": "^1.1.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cr3ative/homebridge-apcaccess.git"
+    "url": "git+https://github.com/rgsteele/homebridge-apcaccess.git"
   },
   "bugs": {
-    "url": "https://github.com/cr3ative/homebridge-apcaccess/issues"
+    "url": "https://github.com/rgsteele/homebridge-apcaccess/issues"
   },
-  "homepage": "https://github.com/cr3ative/homebridge-apcaccess#readme",
+  "homepage": "https://github.com/rgsteele/homebridge-apcaccess#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
