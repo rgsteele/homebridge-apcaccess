@@ -58,7 +58,7 @@ class APCAccess {
   }
 
   getLatestJSON() {
-    this.client.getStatusJson().then((result) => {
+    this.client.statusJson().then((result) => {
       this.latestJSON = result;
       this.doPolledChecks();
     });
